@@ -1,0 +1,66 @@
+
+@{
+    ViewData["Title"] = "Register New Car";
+}
+
+<h3>Register New Car</h3>
+
+<div class="col-md-6 offset-md-3">
+<form>
+  <div class="form-group">
+    <label>Make</label>
+    <input id="txtMake" type="text" class="form-control" name="make" placeholder="Make of Vehicle">
+  </div>
+
+  <div class="form-group">
+    <label>Model</label>
+    <input id="txtModel" type="text" class="form-control" name="model" placeholder="Model of Vehicle">
+  </div>
+
+    <div class="form-group">
+    <label>Year</label>
+    <input id="txtYear" type="number" class="form-control" name="year" placeholder="Year of Vehicle">
+  </div>
+
+    <div class="form-group">
+    <label>Color</label>
+    <input id="txtColor" type="text" class="form-control" name="color" placeholder="Color of Vehicle">
+  </div>
+
+    <div class="form-group">
+    <label>Price</label>
+    <input id="txtPrice" type="number" class="form-control" name="price" placeholder="Price of Vehicle">
+  </div>
+
+    <div class="form-group">
+    <label>Mileage</label>
+    <input id="txtMileage" type="number" class="form-control" name="mileage" placeholder="Mileage of Vehicle">
+  </div>
+
+    <div class="form-group">
+    <label>Condition</label>
+    <input id="txtCondition" type="text" class="form-control" name="condition" placeholder="New or Used">
+  </div>
+
+    <div class="form-group">
+    <label>Seats</label>
+    <input id="txtSeats" type="number" class="form-control" name="seats" placeholder="# of seats">
+  </div>
+
+    <div class="form-group">
+    <label>MPG</label>
+    <input id="txtMPG" type="number" class="form-control" name="mpg" placeholder="Miles per Gallon">
+  </div>
+
+      <div class="form-group">
+    <label>Image</label>
+    <input id="txtImg" type="image" class="form-control" name="image" placeholder="Do you have image? Y/N">
+  </div>
+
+  <button id="btnSave" type="button" class="btn btn-primary">Register Vehicle</button>
+</form>
+</div>
+
+ @section Scripts {
+   <script src="/js/register.js"></script>
+ }
